@@ -1,19 +1,21 @@
 <template>
   <main>
     <div class="w-full min-h-screen font-sans text-gray-900">
-      <div>
-        <Logo />
-        <nav>
-          <a v-for="item in menu" href="#">{{ item }}</a>
-          <a href="#">try now</a>
-        </nav>
+      <div class="px-6 mx-auto max-w-6xl">
+        <div class="flex justify-between items-center py-10">
+          <Logo />
+          <nav>
+            <a v-for="item in menu" href="#">{{ item }}</a>
+            <a href="#">try now</a>
+          </nav>
+        </div>
       </div>
     </div>
   </main>
 </template>
 
 <script>
-import Logo from './components/Logo.vue';
+import Logo from './assets/img/logo.svg'
 
 export default {
   name: 'App',
