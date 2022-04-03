@@ -13,7 +13,13 @@
 </template>
 
 <script>
+import Logo from './components/Logo.vue';
+
 export default {
+  name: 'App',
+  components: {
+    Logo
+  },
   setup() {
     const menu = ['home', 'about us', 'blogs', 'contact']
     return {
