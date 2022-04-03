@@ -25,8 +25,11 @@
               and grow your crypto assets.
             </p>
             <div class="flex items-center pt-12 space-x-6">
-              <button>get tips</button>
-              <button>learn more</button>
+              <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-blue-600 rounded-xl hover:shadow-xl">get tips</button>
+              <button class="flex items-center">
+                <PlayButton class="drop-shadow-lg hover:drop-shadow-xl" />
+                <span class="pl-4 font-bold tracking-wide">learn more</span>
+              </button>
             </div>
           </div>
           <div class="w-1/2">
@@ -34,17 +37,21 @@
           </div>
         </div>
       </div>
+      <div>
+        
+      </div>
     </div>
   </main>
 </template>
 
 <script>
 import Logo from './assets/img/logo.svg'
+import PlayButton from './assets/img/play-button.svg'
 
 export default {
   name: 'App',
   components: {
-    Logo
+    Logo, PlayButton
   },
   setup() {
     const menu = ['home', 'about us', 'blogs', 'contact']
