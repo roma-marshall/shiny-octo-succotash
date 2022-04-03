@@ -16,17 +16,21 @@
       </div>
       <div class="px-6 mx-auto max-w-6xl">
         <div class="flex">
-          <div class="pt-24 w-1/2">
+          <div class="pt-24 pr-8 w-1/2">
             <h1 class="text-6xl font-bold font-display">
-              Learn about the best ways to store your crypto
+              Learn the best ways to secure your crypto
             </h1>
             <p class="pt-8 max-w-md text-xl leading-relaxed text-gray-500">
-              Your new favorite crypto wallet
+              The smartest way to secure, buy, exchange
+              and grow your crypto assets.
             </p>
             <div class="flex items-center pt-12 space-x-6">
               <button>get tips</button>
               <button>learn more</button>
             </div>
+          </div>
+          <div class="w-1/2">
+            <img src="./assets/img/illustration.svg" alt="illustration">
           </div>
         </div>
       </div>
