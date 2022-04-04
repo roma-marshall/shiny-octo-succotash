@@ -45,7 +45,7 @@
             </div>
           </div>
           <div class="w-1/2 flex items-end border-b border-gray-200">
-            <img src="./assets/img/illustration.svg" alt="illustration">
+            <img src="./assets/img/illustration.svg" alt="">
           </div>
         </div>
       </div>
