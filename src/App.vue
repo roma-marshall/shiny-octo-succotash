@@ -21,14 +21,16 @@
         <div class="flex">
           <div class="pt-24 pr-8 pb-12 w-1/2">
             <h1 class="text-6xl font-bold font-display">
-              Learn the best ways to secure your crypto
+              Learn the <span class="relative after:content-[url(/assets/img/scratch.svg) after:absolute after:top-0 after:right-0]"> best </span> ways to secure your crypto
             </h1>
             <p class="pt-8 max-w-md text-xl leading-relaxed text-gray-500">
               The smartest way to secure, buy, exchange
               and grow your crypto assets.
             </p>
             <div class="flex items-center pt-12 space-x-6">
-              <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-blue-600 rounded-xl hover:shadow-xl">get tips</button>
+              <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-blue-600 rounded-xl hover:shadow-xl">
+                get tips
+              </button>
               <button class="flex items-center">
                 <PlayButton class="drop-shadow-lg hover:drop-shadow-xl" />
                 <span class="pl-4 font-bold tracking-wide">learn more</span>
