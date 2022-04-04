@@ -10,6 +10,11 @@ module.exports = {
                 display: ['Volkhov', 'serif']
             }
         },
+        colors: {
+            gray: {
+                50: '#f6fafd'
+            },
+        }
     },
     plugins: [],
 }

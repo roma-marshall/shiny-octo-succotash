@@ -37,8 +37,18 @@
           </div>
         </div>
       </div>
-      <div>
-        
+      <div class="bg-gray-50">
+        <div class="py-12 px-6 mx-auto max-w-6xl">
+          <div class="flex">
+            <div v-for="feature in features">
+              <div>
+                <Component :is="feature.icon" />
+                <h2>{{ feature.title }}</h2>
+              </div>
+              <p>{{ feature.description }}</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -47,16 +57,47 @@
 <script>
 import Logo from './assets/img/logo.svg'
 import PlayButton from './assets/img/play-button.svg'
+import BriefcaseIcon from './assets/img/briefcase.svg'
+import LocationIcon from './assets/img/location.svg'
+import ProfileIcon from './assets/img/profile.svg'
 
 export default {
   name: 'App',
   components: {
-    Logo, PlayButton
+    Logo,
+    PlayButton,
+    BriefcaseIcon,
+    LocationIcon,
+    ProfileIcon
   },
   setup() {
     const menu = ['home', 'about us', 'blogs', 'contact']
+    const features = [
+      {
+        icon: BriefcaseIcon,
+        title: "BUY AND SELL CRYPTO",
+        description:
+            "You can buy Bitcoin, Ethereum, Bitcoin Cash, Dash, USDT and Stellar directly from your crypto wallet. It also allows you to sell Bitcoin for fiat currencies when you need it.",
+        color: "bg-orange",
+      },
+      {
+        icon: ProfileIcon,
+        title: "GROW YOUR ASSETS",
+        description:
+            "Grow your assets the easy way by securely staking crypto like Algorand, Cosmos, Tezos, Tron or Polkadot and more. You can also lend digital assets to generate interest.",
+        color: "bg-blue",
+      },
+      {
+        icon: LocationIcon,
+        title: "STAY IN CONTROL",
+        description:
+            "With a simple, clear interface, crypto wallet lets you check your current balance and manage all your transactions. So you’re in total control at all times.",
+        color: "bg-pink",
+      },
+    ]
     return {
-      menu
+      menu,
+      features
     }
   }
 }
