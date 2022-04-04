@@ -13,6 +13,9 @@ module.exports = {
                 gray: {
                     50: '#F6FAFD'
                 },
+            },
+            zIndex: {
+                '-1': '-1'
             }
         },
     },
