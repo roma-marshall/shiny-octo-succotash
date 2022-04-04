@@ -6,7 +6,7 @@
         <div class="px-6 mx-auto max-w-6xl">
           <div class="flex justify-between items-center py-10">
             <Logo/>
-            <nav class="flex items-center space-x-10">
+            <nav class="hidden md:flex md:items-center md:space-x-10">
               <a v-for="item in menu" href="#" class="text-gray-700 hover:text-gray-900">
                 {{ item }}
               </a>
@@ -14,6 +14,9 @@
                 try now
               </a>
             </nav>
+            <button class="p-4 md:hidden">
+              <MenuIcon class="w-6 h-6 text-gray-800"/>
+            </button>
           </div>
         </div>
       </div>
@@ -81,6 +84,7 @@ import PlayButton from './assets/img/play-button.svg'
 import BriefcaseIcon from './assets/img/briefcase.svg'
 import LocationIcon from './assets/img/location.svg'
 import ProfileIcon from './assets/img/profile.svg'
+import MenuIcon from './assets/img/menu.svg'
 
 export default {
   name: 'App',
@@ -89,7 +93,8 @@ export default {
     PlayButton,
     BriefcaseIcon,
     LocationIcon,
-    ProfileIcon
+    ProfileIcon,
+    MenuIcon
   },
   setup() {
     const menu = ['home', 'about us', 'blogs', 'contact']
