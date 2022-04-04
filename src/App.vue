@@ -5,6 +5,7 @@
         <img src="./assets/img/blob.svg" alt="blob" class="absolute top-0 right-0 pointer-events-none">
         <div class="px-6 mx-auto max-w-6xl">
           <div class="flex justify-between items-center py-10">
+            <Logo/>
             <nav class="hidden md:flex md:items-center md:space-x-10">
               <a v-for="item in menu" href="#" class="text-gray-700 hover:text-gray-900">
                 {{ item }}
@@ -78,6 +79,7 @@
 </template>
 
 <script>
+import Logo from './assets/img/logo.svg'
 import PlayButton from './assets/img/play-button.svg'
 import BriefcaseIcon from './assets/img/briefcase.svg'
 import LocationIcon from './assets/img/location.svg'
@@ -87,6 +89,7 @@ import MenuIcon from './assets/img/menu.svg'
 export default {
   name: 'App',
   components: {
+    Logo,
     PlayButton,
     BriefcaseIcon,
     LocationIcon,
