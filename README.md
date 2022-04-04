@@ -8,4 +8,4 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 # [Live Demo](https://stalwart-creponne-aa87c0.netlify.app)
 
-<img width="1440" alt="Screenshot 2022-04-04 at 04 04 59" src="https://user-images.githubusercontent.com/79694559/161462347-9c7972c9-eb11-4bc0-975f-cc483178a709.png">
+![image](https://user-images.githubusercontent.com/79694559/161549666-ce928db2-b018-4e92-b22a-38b701efc6ef.png)
