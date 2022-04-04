@@ -1,17 +1,19 @@
 <template>
   <main>
     <div class="w-full min-h-screen font-sans text-gray-900">
-      <div class="px-6 mx-auto max-w-6xl">
-        <div class="flex justify-between items-center py-10">
-          <Logo/>
-          <nav class="flex items-center space-x-10">
-            <a v-for="item in menu" href="#" class="text-gray-700 hover:text-gray-900">
-              {{ item }}
-            </a>
-            <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-800">
-              try now
-            </a>
-          </nav>
+      <div class="bg-gradient-to-b from-[#fee6f7] to-white">
+        <div class="px-6 mx-auto max-w-6xl">
+          <div class="flex justify-between items-center py-10">
+            <Logo/>
+            <nav class="flex items-center space-x-10">
+              <a v-for="item in menu" href="#" class="text-gray-700 hover:text-gray-900">
+                {{ item }}
+              </a>
+              <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-800">
+                try now
+              </a>
+            </nav>
+          </div>
         </div>
       </div>
       <div class="px-6 mx-auto max-w-6xl">
@@ -32,7 +34,7 @@
               </button>
             </div>
           </div>
-          <div class="w-1/2 flex items-end border-b border-gray-400">
+          <div class="w-1/2 flex items-end border-b border-gray-900">
             <img src="./assets/img/illustration.svg" alt="illustration">
           </div>
         </div>
