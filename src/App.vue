@@ -50,7 +50,7 @@
         <div class="py-12 px-6 mx-auto max-w-6xl">
           <div class="flex gap-x-5">
             <div v-for="feature in features"
-                 class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200 cursor-pointer hover:shadow-xl">
+                 class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200 transition-shadow duration-500 ease-out cursor-pointer hover:shadow-xl">
               <div class="flex items-center space-x-3">
                 <div class="relative">
                   <span
