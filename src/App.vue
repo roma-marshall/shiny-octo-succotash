@@ -21,7 +21,7 @@
         <div class="flex">
           <div class="pt-24 pr-8 pb-12 w-1/2">
             <h1 class="text-6xl font-bold font-display">
-              Learn the <span class="relative after:content-[url(/assets/img/scratch.svg) after:absolute after:top-0 after:right-0]"> best </span> ways to secure your crypto
+              Learn the <span class="relative after:content-[url(./src/assets/img/scratch.svg)] after:absolute after:-top-2 after:-right-6 after:-z-1"> best </span> ways to secure your crypto
             </h1>
             <p class="pt-8 max-w-md text-xl leading-relaxed text-gray-500">
               The smartest way to secure, buy, exchange
