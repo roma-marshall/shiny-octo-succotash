@@ -58,7 +58,13 @@
                       class="absolute top-0 left-4 w-3 h-3 rounded-full opacity-50"/>
                   <Component :is="feature.icon"/>
                 </div>
-                <h2 class="text-xl font-display">{{ feature.title }}</h2>
+                <div class="relative">
+                  <span
+                      :class="feature.color"
+                      class="absolute right-0 bottom-1 w-12 h-1.5 opacity-60"
+                  />
+                  <h2 class="text-xl font-display">{{ feature.title }}</h2>
+                </div>
               </div>
               <p class="text-sm leading-relaxed text-gray-500">{{ feature.description }}</p>
             </div>
