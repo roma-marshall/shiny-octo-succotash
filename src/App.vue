@@ -29,11 +29,11 @@
               ways to secure your <span
                 class="relative after:content-[url(./src/assets/img/decoration.svg)] after:absolute after:-bottom-2 after:-right-8 after:-z-1"> crypto </span>
             </h1>
-            <p class="pt-8 max-w-md text-xl leading-relaxed text-gray-500">
+            <p class="pt-8 text-lg leading-relaxed text-gray-500 md:max-w-md md:text-xl">
               The smartest way to secure, buy, exchange
               and grow your crypto assets.
             </p>
-            <div class="flex items-center pt-12 space-x-6">
+            <div class="flex justify-center items-center pt-12 space-x-6 md:justify-start">
               <button
                   class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-blue-600 rounded-xl hover:shadow-xl">
                 get tips
@@ -51,7 +51,7 @@
       </div>
       <div class="bg-gray-50">
         <div class="py-12 px-6 mx-auto max-w-6xl">
-          <div class="flex gap-x-5">
+          <div class="flex flex-col md:flex-row">
             <div v-for="feature in features"
                  class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200 transition-shadow duration-500 ease-out cursor-pointer hover:shadow-xl">
               <div class="flex items-center space-x-3">
