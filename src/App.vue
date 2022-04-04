@@ -2,7 +2,7 @@
   <main>
     <div class="w-full min-h-screen font-sans text-gray-900">
       <div class="bg-gradient-to-b from-[#fee6f7] to-white">
-        <img src="./assets/img/blob.svg" alt="blob" class="absolute top-0 right-0 pointer-events-none">
+        <img src="`./assets/img/blob.svg`" alt="blob" class="absolute top-0 right-0 pointer-events-none">
         <div class="px-6 mx-auto max-w-6xl">
           <div class="flex justify-between items-center py-10">
             <Logo/>
@@ -45,7 +45,7 @@
             </div>
           </div>
           <div class="w-1/2 flex items-end border-b border-gray-200">
-            <img src="./assets/img/illustration.svg" alt="">
+            <img src="`./assets/img/illustration.svg`" alt="">
           </div>
         </div>
       </div>
