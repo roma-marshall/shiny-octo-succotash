@@ -16,7 +16,7 @@
       </div>
       <div class="px-6 mx-auto max-w-6xl">
         <div class="flex">
-          <div class="pt-24 pr-8 w-1/2">
+          <div class="pt-24 pr-8 pb-12 w-1/2">
             <h1 class="text-6xl font-bold font-display">
               Learn the best ways to secure your crypto
             </h1>
@@ -32,14 +32,14 @@
               </button>
             </div>
           </div>
-          <div class="w-1/2">
+          <div class="w-1/2 flex items-end border-b border-gray-400">
             <img src="./assets/img/illustration.svg" alt="illustration">
           </div>
         </div>
       </div>
       <div class="bg-gray-50">
         <div class="py-12 px-6 mx-auto max-w-6xl">
-          <div class="flex">
+          <div class="flex gap-x-5">
             <div v-for="feature in features" class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200">
               <div class="flex items-center space-x-3">
                 <Component :is="feature.icon" />
