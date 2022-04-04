@@ -40,12 +40,12 @@
       <div class="bg-gray-50">
         <div class="py-12 px-6 mx-auto max-w-6xl">
           <div class="flex">
-            <div v-for="feature in features">
-              <div>
+            <div v-for="feature in features" class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200">
+              <div class="flex items-center space-x-3">
                 <Component :is="feature.icon" />
-                <h2>{{ feature.title }}</h2>
+                <h2 class="text-xl font-display">{{ feature.title }}</h2>
               </div>
-              <p>{{ feature.description }}</p>
+              <p class="text-sm leading-relaxed text-gray-500">{{ feature.description }}</p>
             </div>
           </div>
         </div>
