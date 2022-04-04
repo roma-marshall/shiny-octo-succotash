@@ -8,13 +8,13 @@ module.exports = {
             fontFamily: {
                 sans: ['DM Sans', 'sans-serif'],
                 display: ['Volkhov', 'serif']
+            },
+            colors: {
+                gray: {
+                    50: '#F6FAFD'
+                },
             }
         },
-        colors: {
-            gray: {
-                50: '#f6fafd'
-            },
-        }
     },
     plugins: [],
 }
