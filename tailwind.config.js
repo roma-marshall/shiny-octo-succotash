@@ -14,6 +14,9 @@ module.exports = {
                     50: '#F6FAFD'
                 },
             },
+            fontSize: {
+                '6xl': ['3.5rem', '4.25rem']
+            },
             zIndex: {
                 '-1': '-1'
             }
