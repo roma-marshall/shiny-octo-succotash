@@ -21,18 +21,22 @@
         <div class="flex">
           <div class="pt-24 pr-8 pb-12 w-1/2">
             <h1 class="relative z-10 text-6xl font-bold font-display">
-              Learn the <span class="relative after:content-[url(./src/assets/img/scratch.svg)] after:absolute after:-top-2 after:-right-6 after:-z-1"> best </span> ways to secure your <span class="relative after:content-[url(./src/assets/img/decoration.svg)] after:absolute after:-bottom-2 after:-right-8 after:-z-1"> crypto </span>
+              Learn the <span
+                class="relative after:content-[url(./src/assets/img/scratch.svg)] after:absolute after:-top-2 after:-right-6 after:-z-1"> best </span>
+              ways to secure your <span
+                class="relative after:content-[url(./src/assets/img/decoration.svg)] after:absolute after:-bottom-2 after:-right-8 after:-z-1"> crypto </span>
             </h1>
             <p class="pt-8 max-w-md text-xl leading-relaxed text-gray-500">
               The smartest way to secure, buy, exchange
               and grow your crypto assets.
             </p>
             <div class="flex items-center pt-12 space-x-6">
-              <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-blue-600 rounded-xl hover:shadow-xl">
+              <button
+                  class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-blue-600 rounded-xl hover:shadow-xl">
                 get tips
               </button>
               <button class="flex items-center">
-                <PlayButton class="drop-shadow-lg hover:drop-shadow-xl" />
+                <PlayButton class="drop-shadow-lg hover:drop-shadow-xl"/>
                 <span class="pl-4 font-bold tracking-wide">learn more</span>
               </button>
             </div>
@@ -45,9 +49,15 @@
       <div class="bg-gray-50">
         <div class="py-12 px-6 mx-auto max-w-6xl">
           <div class="flex gap-x-5">
-            <div v-for="feature in features" class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200">
+            <div v-for="feature in features"
+                 class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200">
               <div class="flex items-center space-x-3">
-                <Component :is="feature.icon" />
+                <div class="relative">
+                  <span
+                      :class="feature.color"
+                      class="absolute top-0 left-4 w-3 h-3 rounded-full opacity-50"/>
+                  <Component :is="feature.icon"/>
+                </div>
                 <h2 class="text-xl font-display">{{ feature.title }}</h2>
               </div>
               <p class="text-sm leading-relaxed text-gray-500">{{ feature.description }}</p>
