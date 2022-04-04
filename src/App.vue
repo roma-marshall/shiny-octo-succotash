@@ -50,20 +50,20 @@
         <div class="py-12 px-6 mx-auto max-w-6xl">
           <div class="flex gap-x-5">
             <div v-for="feature in features"
-                 class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200">
+                 class="flex flex-col p-8 space-y-4 bg-white rounded-lg border border-gray-200 cursor-pointer hover:shadow-xl">
               <div class="flex items-center space-x-3">
                 <div class="relative">
                   <span
                       :class="feature.color"
                       class="absolute top-0 left-4 w-3 h-3 rounded-full opacity-50"/>
-                  <Component :is="feature.icon"/>
+                  <Component :is="feature.icon" class="relavite"/>
                 </div>
                 <div class="relative">
                   <span
                       :class="feature.color"
                       class="absolute right-0 bottom-1 w-12 h-1.5 opacity-60"
                   />
-                  <h2 class="text-xl font-display">{{ feature.title }}</h2>
+                  <h2 class="relative text-xl font-display">{{ feature.title }}</h2>
                 </div>
               </div>
               <p class="text-sm leading-relaxed text-gray-500">{{ feature.description }}</p>
